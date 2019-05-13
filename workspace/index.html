@@ -58,18 +58,16 @@
 
     <script type="text/javascript">
         window.addEventListener('load', function() {
-            modal.app(
-                config = {
-                    boxContainer: 'modal-container-1',
-                    animation: {
-                        type: 'slide-in-right', //slide-in-top, slide-in-left, slide-in-right, bounce-in-top, bounce-in-left, bounce-in-right
-                        duration: 300,
-                    },
-                    closeOverlay: true,
-                    closeX: true,
-                    closeEsc: true
-                } 
-            );
+            modal.app({
+                boxContainer: 'modal-container-1',
+                animation: {
+                    type: 'slide-in-right', //slide-in-top, slide-in-left, slide-in-right, bounce-in-top, bounce-in-left, bounce-in-right
+                    duration: 300,
+                },
+                closeOverlay: true,
+                closeX: true,
+                closeEsc: true
+            });
         }, false);
     </script>
 
@@ -117,18 +115,16 @@
 
     <script type="text/javascript">
         window.addEventListener('load', function() {
-            modal.app(
-                config = {
-                    boxContainer: 'modal-container-2',
-                    animation: {
-                        type: 'bounce-in-top', //slide-in-top, slide-in-left, slide-in-right, bounce-in-top, bounce-in-left, bounce-in-right
-                        duration: 300,
-                    },
-                    closeOverlay: true,
-                    closeX: true,
-                    closeEsc: true
-                } 
-            );
+            modal.app({
+                boxContainer: 'modal-container-2',
+                animation: {
+                    type: 'bounce-in-top', //slide-in-top, slide-in-left, slide-in-right, bounce-in-top, bounce-in-left, bounce-in-right
+                    duration: 300,
+                },
+                closeOverlay: true,
+                closeX: true,
+                closeEsc: true
+            });
         }, false);
     </script>
 

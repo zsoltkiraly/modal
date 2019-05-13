@@ -161,7 +161,7 @@ var modal = function() {
         }
     }
 
-    function app() {
+    function app(config) {
         clickButton(config);
         clickOverlay(config);
         keydownEsc(config);
